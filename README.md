@@ -66,25 +66,19 @@ Swappable providers: the app also supports **Gemini** and **OpenAI** — just ch
 
 ## ⚙️ Getting Started
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/<your-username>/Fake-News-Detector.git
-cd Fake-News-Detector
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Add your API key
+### 2. Add your API key
 Create `.streamlit/secrets.toml` (already gitignored — never committed):
 ```toml
 GROQ_API_KEY = "your-groq-api-key-here"
 ```
 Get a free key at [console.groq.com/keys](https://console.groq.com/keys).
 
-### 4. Run the app
+### 3. Run the app
 ```bash
 streamlit run app.py
 ```
