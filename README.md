@@ -42,8 +42,10 @@ Each item is sent to an LLM with a fact-checking system prompt, which returns st
 
 ## 📸 Screenshots
 
-> _Add a few screenshots or a short GIF here — e.g. the landing page, a single-article verdict, and the batch breakdown view. This is the single biggest thing that makes a README convert browsers into users._
-
+![App screenshot](Images/01_Detector.png)
+![App screenshot](Images/02_Detector.png)
+![App screenshot](Images/03_Detector.png)
+![App screenshot](Images/04_Detector.png)
 
 
 ## 🛠️ Tech Stack
