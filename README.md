@@ -1,4 +1,4 @@
-# 📰 Real vs Fake News Detector : https://real-vs-fake-news-detector-aiml.streamlit.app
+# 📰 Real vs Fake News Detector 
 
 **Paste it. Upload it. Know instantly.**
 An AI-powered Streamlit app that fact-checks news headlines and articles in real time — flagging them as **REAL** or **FAKE**, with a confidence score and a plain-English explanation for every verdict.
@@ -7,6 +7,8 @@ An AI-powered Streamlit app that fact-checks news headlines and articles in real
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![LLM](https://img.shields.io/badge/Powered%20by-Groq%20LLaMA%203.3-8A2BE2)
 ![License](https://img.shields.io/badge/License-MIT-green)
+###Try It : https://real-vs-fake-news-detector-aiml.streamlit.app
+
 
 ---
 
