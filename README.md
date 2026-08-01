@@ -43,11 +43,11 @@ Each item is sent to an LLM with a fact-checking system prompt, which returns st
 ## 📸 Screenshots
 
 ![App screenshot](Images/01_Detector.png)
-### 1.Real vs Fake News Detector using Paste a News Article text
+### 1.News Detector using Paste a News Article text
 ![App screenshot](Images/02_Detector.png)
 ![App screenshot](Images/03_Detector.png)
 ![App screenshot](Images/04_Detector.png)
-### 1.Real vs Fake News Detector using Upload a News Article file
+### 2.News Detector using Upload a News Article file
 ![App screenshot](Images/05_Detector.png)
 ![App screenshot](Images/06_Detector.png)
 ![App screenshot](Images/07_Detector.png)
