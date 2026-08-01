@@ -2,7 +2,7 @@
 
 **Paste it. Upload it. Know instantly.**
 An AI-powered Streamlit app that fact-checks news headlines and articles in real time — flagging them as **REAL** or **FAKE**, with a confidence score and a plain-English explanation for every verdict.
-**##Try It : https://real-vs-fake-news-detector-aiml.streamlit.app**
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
