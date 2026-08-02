@@ -223,8 +223,46 @@ st.markdown(f"""
         transform: translateY(-2px);
         box-shadow: 0 8px 24px rgba(167, 139, 250, 0.4);
     }}
+
+    /* ---------- Developer credit ---------- */
+    .dev-credit {{
+        text-align: center;
+        margin-top: 1.2rem;
+        padding-bottom: 0.8rem;
+    }}
+    .dev-credit span {{
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        color: #cbd5e1;
+        font-weight: 600;
+        padding: 0.4rem 1.1rem;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }}
+    .dev-credit span .dev-name {{
+        background: linear-gradient(90deg, #38bdf8, #a78bfa, #f472b6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }}
 </style>
 """, unsafe_allow_html=True)
+
+def render_dev_credit():
+    """Small developer-credit badge — shown at the bottom of both the
+    home page and the tool page."""
+    st.markdown(
+        """
+        <div class="dev-credit">
+            <span>👨‍💻 Developed by&nbsp;<span class="dev-name">Paramjeet Lamba</span></span>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 st.markdown("""
 <div class="title-wrap">
@@ -316,6 +354,7 @@ if st.session_state.page == "home":
         "⚠️ This is an AI-generated estimate, not definitive fact-checking. "
         "Always verify important news through trusted, reputable sources."
     )
+    render_dev_credit()
     st.stop()
 
 # ============================================================
@@ -711,3 +750,4 @@ st.caption(
     "fact-checking. Always verify important news through trusted, reputable sources. "
     "API calls incur cost/rate-limit usage on your provider account — both tabs let you cap the number of items analyzed."
 )
+render_dev_credit()
